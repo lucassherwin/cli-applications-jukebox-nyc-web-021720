@@ -56,6 +56,8 @@ def run(songs)
       play(songs)
     when "help"
       help
+    else
+      puts "Invalid input"
     end
   end
 end
